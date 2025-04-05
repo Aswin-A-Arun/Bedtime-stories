@@ -44,7 +44,7 @@ export default class ReadingScreen extends React.Component{
         const hasCameraPermissions=this.state.hasCameraPermissions;
         const scanned=this.state.scanned;
         const buttonState=this.state.buttonState;
-        if(buttonState=='bookId'||buttonState=='studentId'&&hasCameraPermissions){
+        if ((buttonState === 'bookId' || buttonState === 'studentId') && hasCameraPermissions) {
             return(
                 <BarCodeScanner onBarCodeScanned={scanned?undefined:this.handleBarCodeScanned} 
                 style={StyleSheet.absoluteFillObject}></BarCodeScanner>
