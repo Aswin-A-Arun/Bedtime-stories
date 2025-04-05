@@ -84,10 +84,13 @@ const styles = StyleSheet.create({
       fontSize: 15,
       textDecorationLine: 'underline'
     },
-    scanButton:{
-      backgroundColor: '#2196F3',
-      padding: 10,
-      margin: 10
+    scanButton: {
+    backgroundColor: '#66BB6A',
+    padding: 10,
+    margin: 10,
+    width: 50,
+    borderWidth: 1.5,
+    borderLeftWidth: 0
     },
     buttonText:{
       fontSize: 15,
@@ -101,11 +104,5 @@ const styles = StyleSheet.create({
       borderWidth: 1.5,
       borderRightWidth: 0,
       fontSize: 20
-    },
-    scanButton:{
-      backgroundColor: '#66BB6A',
-      width: 50,
-      borderWidth: 1.5,
-      borderLeftWidth: 0
     }
   });
